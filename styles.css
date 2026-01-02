@@ -123,19 +123,19 @@ body {
         height: 120px;
     }
     #firework1 {
-        top: 10%;
+        top: 5%;
         left: 2%;
     }
     #firework3 {
-        bottom: 10%;
+        bottom: 5%;
         left: 2%;
     }
     #firework2 {
-        top: 10%;
+        top: 5%;
         right: 2%;
     }
     #firework4 {
-        bottom: 10%;
+        bottom: 5%;
         right: 2%;
     }
 }
@@ -145,50 +145,50 @@ body {
         padding: 6px;
     }
     .firework-img {
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
     }
     #firework1 {
-        top: 8%;
-        left: 1%;
+        top: 2%;
+        left: 0.5%;
     }
     #firework3 {
-        bottom: 8%;
-        left: 1%;
+        bottom: 2%;
+        left: 0.5%;
     }
     #firework2 {
-        top: 8%;
-        right: 1%;
+        top: 2%;
+        right: 0.5%;
     }
     #firework4 {
-        bottom: 8%;
-        right: 1%;
+        bottom: 2%;
+        right: 0.5%;
     }
 }
 
 @media (max-width: 600px) {
     .firework-wrapper {
-        padding: 5px;
+        padding: 4px;
     }
     .firework-img {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
     }
     #firework1 {
-        top: 6%;
-        left: 1%;
+        top: 1%;
+        left: 0.5%;
     }
     #firework3 {
-        bottom: 6%;
-        left: 1%;
+        bottom: 1%;
+        left: 0.5%;
     }
     #firework2 {
-        top: 6%;
-        right: 1%;
+        top: 1%;
+        right: 0.5%;
     }
     #firework4 {
-        bottom: 6%;
-        right: 1%;
+        bottom: 1%;
+        right: 0.5%;
     }
 }
 
@@ -247,7 +247,7 @@ body {
     z-index: 10;
     max-height: 90vh;
     overflow: visible;
-    margin: 10px;
+    margin: 10px auto;
     box-shadow: 
         0 0 60px rgba(255, 215, 0, 0.4),
         0 0 100px rgba(255, 105, 180, 0.3),
@@ -502,14 +502,14 @@ body {
 /* Mobile responsive styles */
 @media (max-width: 768px) {
     body {
-        padding: 10px 0;
+        padding: 10px 5px;
     }
     
     .letter-container {
-        max-width: 95%;
+        max-width: 85%;
         padding: 20px 25px;
-        margin: 5px;
-        max-height: 85vh;
+        margin: 5px auto;
+        max-height: 82vh;
     }
     
     .letter-header h1 {
@@ -538,7 +538,7 @@ body {
 @media (max-width: 480px) {
     .letter-container {
         padding: 15px 20px;
-        max-width: 98%;
+        max-width: 82%;
     }
     
     .letter-header h1 {

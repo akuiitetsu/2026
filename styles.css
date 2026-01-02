@@ -119,14 +119,76 @@ body {
         padding: 10px;
     }
     .firework-img {
-        width: 140px;
-        height: 140px;
+        width: 120px;
+        height: 120px;
+    }
+    #firework1 {
+        top: 10%;
+        left: 2%;
+    }
+    #firework3 {
+        bottom: 10%;
+        left: 2%;
+    }
+    #firework2 {
+        top: 10%;
+        right: 2%;
+    }
+    #firework4 {
+        bottom: 10%;
+        right: 2%;
     }
 }
 
 @media (max-width: 900px) {
     .firework-wrapper {
-        display: none;
+        padding: 6px;
+    }
+    .firework-img {
+        width: 70px;
+        height: 70px;
+    }
+    #firework1 {
+        top: 8%;
+        left: 1%;
+    }
+    #firework3 {
+        bottom: 8%;
+        left: 1%;
+    }
+    #firework2 {
+        top: 8%;
+        right: 1%;
+    }
+    #firework4 {
+        bottom: 8%;
+        right: 1%;
+    }
+}
+
+@media (max-width: 600px) {
+    .firework-wrapper {
+        padding: 5px;
+    }
+    .firework-img {
+        width: 50px;
+        height: 50px;
+    }
+    #firework1 {
+        top: 6%;
+        left: 1%;
+    }
+    #firework3 {
+        bottom: 6%;
+        left: 1%;
+    }
+    #firework2 {
+        top: 6%;
+        right: 1%;
+    }
+    #firework4 {
+        bottom: 6%;
+        right: 1%;
     }
 }
 
@@ -434,5 +496,84 @@ body {
     100% {
         opacity: 0;
         transform: translateY(100px);
+    }
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px 0;
+    }
+    
+    .letter-container {
+        max-width: 95%;
+        padding: 20px 25px;
+        margin: 5px;
+        max-height: 85vh;
+    }
+    
+    .letter-header h1 {
+        font-size: 1.4rem;
+    }
+    
+    .letter-header .date {
+        font-size: 0.9rem;
+    }
+    
+    .letter-body {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    
+    .signature {
+        font-size: 1rem;
+    }
+    
+    .corner-decoration {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .letter-container {
+        padding: 15px 20px;
+        max-width: 98%;
+    }
+    
+    .letter-header h1 {
+        font-size: 1.2rem;
+    }
+    
+    .letter-header .date {
+        font-size: 0.85rem;
+    }
+    
+    .letter-body {
+        font-size: 0.85rem;
+        line-height: 1.55;
+    }
+    
+    .letter-body p {
+        margin-bottom: 10px;
+    }
+    
+    .signature {
+        font-size: 0.95rem;
+    }
+    
+    .corner-decoration {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .corner-decoration.top-left {
+        top: 8px;
+        left: 8px;
+    }
+    
+    .corner-decoration.bottom-right {
+        bottom: 8px;
+        right: 8px;
     }
 }

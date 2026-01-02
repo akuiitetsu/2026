@@ -145,8 +145,8 @@ body {
         padding: 6px;
     }
     .firework-img {
-        width: 65px;
-        height: 65px;
+        width: 85px;
+        height: 85px;
     }
     #firework1 {
         top: 2%;
@@ -168,11 +168,11 @@ body {
 
 @media (max-width: 600px) {
     .firework-wrapper {
-        padding: 4px;
+        padding: 5px;
     }
     .firework-img {
-        width: 45px;
-        height: 45px;
+        width: 60px;
+        height: 60px;
     }
     #firework1 {
         top: 1%;
